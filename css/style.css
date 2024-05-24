@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: inline;
+  background-color: transparent;
+  color: black;
+}
+
+.header-conteudo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(64, 64, 141);
+  height: 80px;
+}
+
+.header-inside {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.logo-text-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 80px;
+  height: auto;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 10px;
+  background-color: transparent;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.div-imagem {
+  position: relative;
+  text-align: center;
+}
+
+.div-imagem img {
+  display: block;
+  margin: 0 auto;
+}
+
+.div-resumo {
+  position: relative;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-destaques {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.destaque-item {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+}
+
+.destaque-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.destaque-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.olimpiadas-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  width: 400px;
+  height: auto;
+}
+
+.footer {
+  background-color: rgb(64, 64, 141);
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.contact-info h3 {
+  margin: 0;
+  padding-right: 10px;
+}
